@@ -82,7 +82,7 @@ public class EmployeeBook {
 
         }
         return salaryAfterIndex;
-    }
+    }// не понятно как корректно оформить. Убрать return - ошибка. Оставить -лишняя запись
     public int getCurrentSize() {
         return size;
     }
@@ -98,7 +98,7 @@ public class EmployeeBook {
             }
         }
         return null;
-    }
+    }// не понятно как корректно оформить
 
     public Employee getEmployeeWithMinSalaryByDepartment(int department) {
         Employee employeeWithMaxSalary = null;

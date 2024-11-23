@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         EmployeeBook employeeBook = new EmployeeBook();
-        employeeBook.addEmployee("Kozlova Lada Sergeevna", 1, 135000);
+        employeeBook.addEmployee("Kotova Milena Sergeevna", 1, 135000);
         employeeBook.addEmployee("Kosmicheskiy Sergey Vladimirovich", 1, 140000);
         employeeBook.addEmployee("Chernyh Elena Aleksandrona", 2, 93000);
         employeeBook.addEmployee("Igorev Fedor Eduardovich", 2, 100000);

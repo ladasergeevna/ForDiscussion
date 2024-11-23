@@ -46,7 +46,6 @@ public class Employee {
         Employee employee = (Employee) o;
         return id == employee.id && department == employee.department && Objects.equals(fullName, employee.fullName);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(id, fullName, department);
